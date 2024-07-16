@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="@drawable/sky">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        
+        android:layout_marginTop="40dp">
+        <ImageButton
+             android:layout_width="45dp"
+             android:layout_height="45dp"
+             android:id="@+id/btnclose"
+             android:background="@drawable/closeb"
+             android:layout_marginLeft="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Game Over!"
+            android:textSize="30dp"                        
+            android:textColor="#fff"         
+            android:id="@+id/tvdescription"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_marginLeft="30dp"
+        />
+       <ImageView        
+            android:layout_height="60dp"
+            android:layout_width="140dp"            
+            android:background="@drawable/gr1"
+        />
+        
+    </LinearLayout>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter name"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textColorHint="#fff"
+        android:textSize="25dp"
+        android:textColor="#fff"
+        android:layout_marginTop="15dp"       
+        android:id="@+id/editText1"
+        android:layout_marginLeft="75dp"
+        android:backgroundTint="#fff"
+        />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="50dp" 
+            android:layout_marginLeft="30dp"
+            android:text="back home"
+            android:id="@+id/backhome"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            />
+         <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp" 
+            android:layout_marginLeft="40dp"
+            android:text="new game"
+            android:id="@+id/newgame"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            />
+        
+    </LinearLayout>
+    
+</LinearLayout>
